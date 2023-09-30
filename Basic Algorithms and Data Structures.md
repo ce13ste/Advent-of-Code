@@ -188,6 +188,14 @@ def insertionSort(arr):
             j -= 1
     return arr
 
+# Swap arr[j] and arr[j + 1] using tuple unpacking
+# arr[j], arr[j + 1] = arr[j + 1], arr[j]
+# j -= 1
+# same as:
+# tmp = arr[j + 1]
+# arr[j + 1] = arr[j]
+# arr[j] = tmp
+# j -= 1
 ```
 
 ![alt text](https://imagedelivery.net/CLfkmk9Wzy8_9HRyug4EVA/f6edc4d8-ebbe-4276-a4d6-b7272268dd00/sharpen=1)
