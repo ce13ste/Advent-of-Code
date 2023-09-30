@@ -25,9 +25,9 @@ The idea now is that we will keep searching for the `target` until we either fin
 
 ### 1. Target exists in the array
 
-Let's take the above concept and apply it to an example. Take the array `arr = [1,2,3,4,5,6,7,8]`, and 55 as our `target`.
+Let's take the above concept and apply it to an example. Take the array `arr = [1,2,3,4,5,6,7,8]`, and 5 as our `target`.
 
-We know that our `L` will start at the 0th index and `R` will start at 7th index, at `arr.length - 1`. Calculate the `mid` by (7+0) / 2=3(7+0) / 2=3. Now we can compare the value at index 33 to our target element.
+We know that our `L` will start at the 0th index and `R` will start at 7th index, at `arr.length - 1`. Calculate the `mid` by (7+0) / 2=3. Now we can compare the value at index 33 to our target element.
 
 44 is less than 55, indicating that we need to look for a larger number, and since the array is sorted, the larger numbers reside on the right. Therefore, we need to move our `L` to `mid + 1`, which determines our lower boundry. The `R` pointer stays where it is.
 
